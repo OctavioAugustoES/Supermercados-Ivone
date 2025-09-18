@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="pt-BR">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercados Ivone</title>
+    
+    <link rel="icon" href="imagens/ivoninha.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D39CMC4VFK"></script> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VQ01H6YTW"></script>
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="imagens/Logo Ivone  _ OFICIAL 3D 2 redimensao.png" alt="Logo do Site">
+            </a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/supermercado.ivone?mibextid=ZbWKwL" target="_blank">
+                <img src="imagens/facelogopng.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/supermercadosivone?igsh=ZjNtdnVqeHFleGUx" target="_blank">
+                <img src="imagens/insta.webp" alt="instagram">
+            </a>
+            <a href="lojas">
+                <img src="imagens/whatsapplogo.png" alt="whatsapp">
+            </a>
+            <a href="https://portal-ivone.production.zanthus.tech/#/login" target="_blank">
+                <img src="imagens/ICONE CLIENTE I- APROVADO.png" alt="Portal CRM">
+            </a>
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <div class="header-padding">
+    <nav>
+        <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+        <span class="page-title">Página Inicial</span>
+        <ul class="nav-list">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="lojas">Lojas</a></li>
+            <li><a href="sobrenos">Sobre Nós</a></li>
+            <li><a href="trabalheconosco">Trabalhe Conosco</a></li>
+            <li><a href="politica">Políticas</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <!-- CONTENT INDEX -->
+    <div class="content">
+        <section id="slide">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imagens/BANNER 50 ANOS.png" alt="Feirinha">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagens/BANNER CARTÃO TRICARD.png" alt="Açougue">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imagens/BANNER CLIENTE I.png" alt="Padaria">
+                    </div>
+                </div>
+            </div>
+        </section>     
+        <div class="content-grid">
+            <div class="card">
+                <img src="imagens/padrao tabloide frente.jpg" alt="Ofertas da Semana">
+                <h3>Ofertas da Semana</h3>
+                <p>Aproveite nossas ofertas especiais para economizar mais.</p>
+                <a href="#" class="open-overlay" data-img1="imagens/padrao tabloide frente.jpg" data-img2="imagens/padrao tabloide verso.jpg">Ver Ofertas</a>
+            </div>
+            <div class="card">
+                <img src="imagens/NOVIDADE 01.png" alt="Novidades">
+                <h3>Novidades</h3>
+                <p>Confira as últimas novidades e lançamentos nas nossas lojas.</p>
+                <a href="#" class="open-overlay" data-img1="imagens/NOVIDADE 02.png" data-img2="imagens/NOVIDADE PAÇOCA COM CACAU.png">Ver Novidades</a>
+            </div>
+            <div class="card">
+                <img src="imagens/ivoninha.png" alt="Cliente I">
+                <h3>Cliente I</h3>
+                <p>Faça cadastro e tenha acesso a vantagens exclusivas!</p>
+                <a href="https://portal-ivone.production.zanthus.tech/#/login">Acessar Portal WEB</a>
+                    <div class ="card_play">
+                        <a href="https://play.google.com/store/apps/details?id=br.com.zanthus.webstore.supivone">Play Store</a>
+                    </div>
+                <div class ="card_apple">
+                    <a href="https://apps.apple.com/br/app/cliente-i/id6449265864">Apple Store</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- OVERLAY -->
+            <div class="overlay" id="overlay">
+                <span class="close-button" id="closeButton">&times;</span>
+
+            <!-- ARROWS -->
+                <span class="arrow left" id="prevArrow">&#10094;</span>
+                <span class="arrow right" id="nextArrow">&#10095;</span>
+
+                <div class="overlay-content">
+                <img id="overlayImg" src="" alt="Imagem">
+                </div>
+            </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="rodap">
+        <div class="footer-container">
+            <div class="facebook-widget">
+                <iframe 
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsupermercado.ivone&tabs=timeline&width=340&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+                    width="100%" 
+                    height="100%" 
+                    style="border: none;overflow:hidden" 
+                    scrolling="yes" 
+                    frameborder="0" 
+                    allowfullscreen="true" 
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowtransparency="true">
+                </iframe>
+            </div>
+            <div class="instagram-widget">
+              <iframe 
+                      src="https://www.instagram.com/p/DLAkAiNxkSO/embed/"
+                      width="320" 
+                      height="400" 
+                      frameborder="0" 
+                      scrolling="no" 
+                      allowtransparency="true" 
+                      allowfullscreen="true"
+                      style="border: none; overflow: hidden;"
+                      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+              </iframe>
+          </div>
+   
+            <div class="footer-links">
+                <p><a href="index.html">Home</a></p>
+                <p><a href="lojas">Lojas</a></p>
+                <p><a href="trabalheconosco">Trabalhe Conosco</a></p>
+                <p><a href="politica">Políticas</a></p>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 20px;">
+            © 2024 Supermercados Ivone. Todos os direitos reservados.
+            <br>
+            <a href="politica.html" style="color: #fff; text-decoration: underline;">Política de Privacidade</a>
+        </p>
+
+        <button onclick="voltarAoTopo()" class="botao-flutuante">↑</button>
+    </footer>
+
+    <!-- JS DOCS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

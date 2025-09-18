@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+    background-color: #f8f8ff; 
+} 
+
+header { 
+    position: relative; 
+    height:180px; 
+    width:100%; 
+    z-index: 999; 
+    display: flex; 
+    align-items: center; 
+    padding: 0 20px;
+    justify-content: space-between; 
+} 
+
+header::before { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url('../imagens/banners\ nav\ loja.png'); 
+    background-size:cover; 
+    z-index: -1; 
+} 
+
+.logo img { 
+    max-width: 300px;
+    height: auto; 
+} 
+
+.social-icons { 
+    display: flex; 
+    gap: 20px; 
+} 
+
+.social-icons img { 
+    width: 40px; 
+    height: auto; 
+} 
+
+
+/* RESTANTE DO CSS */
+nav { 
+    font-family: 'Anton', sans-serif; 
+    background-color: rgba(154, 13, 12, 1); 
+    position: sticky; 
+    top: 0; 
+    z-index: 998; 
+    padding: 20px 0; 
+} 
+
+nav ul { 
+    display: flex; 
+    justify-content: center; 
+    list-style-type: none; 
+    padding: 0; 
+} 
+
+nav ul li { 
+    margin: 0 20px; 
+} 
+
+nav ul li a { 
+    color: #f8f8ff; 
+    text-decoration: none; 
+    font-size: 18px; 
+} 
+
+nav ul li a:hover { 
+    text-decoration: underline; 
+} 
+
+@media screen and (max-width: 1199px) {  
+
+    nav{ 
+        font-size: 16px; 
+    } 
+
+} 
+
+@media screen and (max-width: 768px) { 
+    .logo img{ 
+        max-width: 200px; 
+        height: auto; 
+    } 
+
+    header { 
+        justify-content: center; 
+        height: 150px; 
+    } 
+
+    .social-icons { 
+        display: none; 
+    } 
+    
+    header { 
+        justify-content: center; 
+    } 
+    
+
+    nav{ 
+        font-size: 14px; 
+    } 
+} 
+
+@media screen and (max-width: 500px){ 
+    .logo img{ 
+        max-width: 200px; 
+        height: auto; 
+    } 
+
+    header { 
+        justify-content: center; 
+        height: 150px; 
+    } 
+
+    .social-icons { 
+        display: none; 
+    } 
+    
+    header { 
+        justify-content: center; 
+    } 
+
+    nav{ 
+        font-size: 12px; 
+    } 
+} 
+
+  
+  .content {
+    margin-top: 25px;
+    padding: 40px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .email,
+  .instructions {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom:10px;
+    font-size: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #960202;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a.button:hover {
+    background-color: #750101;
+  }
+  
+
+
+
+  
+  footer {
+    background: linear-gradient(90deg, rgba(154, 13, 12, 1) 0%, rgba(154, 13, 12, 1) 42%, rgba(255, 220, 0, 1) 100%);
+    padding: 30px 20px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden; /* Evita rolagem lateral indesejada */
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  /* Container do footer */
+  .footer-container {
+    display: flex;
+    justify-content: space-between; /* Muda para space-between para melhor espaçamento */
+    align-items: flex-start;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px; /* Espaçamento entre os elementos */
+  }
+  
+  /* Widgets e elementos internos */
+  .facebook-widget, .instagram-widget, .payment-info {
+    flex: 1 1 340px; /* Tamanho flexível, com um tamanho mínimo */
+    min-width: 250px; /* Limite mínimo */
+    max-width: 340px; /* Limite máximo para aumentar o tamanho */
+    align-items: center; /* Centraliza o conteúdo dos widgets */
+  }
+  
+  .instagram-widget iframe, .facebook-widget iframe {
+    width: 100%; /* Define a largura dos iframes para ocupar 100% do contêiner */
+    height: 400px; /* Define uma altura fixa para os iframes */
+    border: none; /* Remove a borda dos iframes */
+    border-radius: 10px; /* Arredonda os cantos dos iframes */
+  }
+  
+  .payment-info img {
+    max-width: 300px; /* Limita a largura da imagem */
+    height: auto;
+    object-fit: contain; /* Garante que a imagem se encaixe sem distorção */
+  }
+  
+  /* --- Responsividade melhorada --- */
+  @media (max-width: 1199px) {
+    .footer-container {
+      justify-content: center;
+      
+    }
+  
+    .facebook-widget, .instagram-widget {
+      margin-bottom: 20px; /* Espaçamento entre os itens no eixo vertical */
+      text-align: center;
+    }
+  
+    .payment-info img {
+      max-width: 350px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .footer-container {
+      flex-direction: column; /* Empilha os itens verticalmente */
+      justify-content: center;
+    }
+  
+    .facebook-widget, .instagram-widget, .payment-info {
+      min-width: 100%; /* Cada item ocupa a largura completa */
+      text-align: center;
+    }
+  
+    .payment-info img {
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    footer {
+      padding: 20px 10px;
+    }
+  
+    .footer-container {
+      flex-direction: column; /* Empilha os itens verticalmente */
+      justify-content: center;
+    }
+  
+    .facebook-widget, .instagram-widget, .payment-info {
+      min-width: 100%; /* Cada item ocupa a largura completa */
+      text-align: center;
+    }
+  
+    .payment-info img {
+      max-width: 250px;
+    }
+  }
+
+
+  /* Esconde o botão em telas grandes */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Esconde a lista em mobile por padrão */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo responsivo */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(154, 13, 12, 1);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 15px 0;
+        text-align: center;
+    }
+}
+
+/* __________________ */
+
+.page-title {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+    
+}
+
+/* Só aparece no mobile */
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .page-title {
+        display: inline-block;
+    }
+}
+
+/* No desktop, escondemos */
+@media screen and (min-width: 769px) {
+    .page-title {
+        display: none;
+    }
+}

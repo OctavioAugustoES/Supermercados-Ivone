@@ -1,67 +1,66 @@
+# Documentação do Site Supermercados Ivone
 
-Documentação do Site Supermercados Ivone
-1. Apresentação
-O site oficial do Supermercados Ivone foi desenvolvido com o objetivo de consolidar a presença digital da empresa, ampliar a comunicação com clientes e disponibilizar informações institucionais, promocionais e de relacionamento.
-Este documento descreve em detalhes:
-- Estrutura de páginas;
-- Funcionalidades implementadas;
-- Tecnologias utilizadas;
-- Recursos de integração;
-- Diretrizes de manutenção e evolução.
+---
 
-2. Objetivos do Projeto
-- Institucional: apresentar a história, missão, visão e valores da marca.
-- Comercial: divulgar ofertas, novidades e programas de fidelização.
-- Relacional: disponibilizar meios de contato direto (WhatsApp, redes sociais e Portal Cliente I).
-- Transparência: fornecer política de privacidade clara e alinhada à LGPD.
-- Recrutamento: oferecer canal oficial para recebimento de currículos.
+## 1. Apresentação
 
-3. Estrutura do Site
-3.1 Página Inicial – index.html
-- Cabeçalho fixo com logo, links de redes sociais e portal de clientes.
-- Menu de navegação responsivo (desktop e mobile).
-- Carrossel de banners (SwiperJS) destacando campanhas institucionais.
-- Cards de destaques: Ofertas da Semana, Novidades e Cliente I.
-- Overlay de imagens para visualização ampliada de ofertas.
-- Rodapé integrado com Facebook, Instagram e links institucionais.
-- Botão flutuante “voltar ao topo”.
-3.2 Página Lojas – lojas.html
-- Apresenta as cinco unidades da rede com foto, endereço, horários, telefone, botão para WhatsApp e link para Google Maps.
-3.3 Página Sobre Nós – sobrenos.html
-- História da fundadora Dona Ivone.
-- Missão, Visão e Valores.
-3.4 Página Trabalhe Conosco – trabalheconosco.html
-- Envio de currículos por e-mail (curriculos@grupoivone.com.br) e entrega presencial nas lojas.
-3.5 Página Políticas – politica.html
-- Política de Privacidade e Programa Cliente I, com regras, benefícios, direitos dos clientes e conformidade com a LGPD.
+O site oficial do **Supermercados Ivone** foi desenvolvido para fortalecer a presença digital da empresa, melhorar a comunicação com os clientes e disponibilizar informações institucionais, promoções e canais de relacionamento.
 
-4. Tecnologias Utilizadas
-- Frontend: HTML5, CSS3, JavaScript.
-- Bibliotecas externas: SwiperJS, Font Awesome, Google Fonts.
-- Integrações: Google Analytics, Facebook, Instagram, WhatsApp, Google Maps.
-- SEO & Performance: Metatags otimizadas, pré-carregamento de fontes, estrutura responsiva.
-  
-5. Recursos de Usabilidade
-- Menu responsivo para navegação em dispositivos móveis.
-- Design centrado no usuário, com informações acessíveis.
-- Acessibilidade básica (uso de atributos alt em imagens).
-- Interatividade: botões de contato rápido via WhatsApp e portal Cliente I.
-  
-6. Segurança e Privacidade
-- Implementação da Política de Privacidade Cliente I.
-- Armazenamento de dados em conformidade com a LGPD.
-- Acesso restrito a informações sensíveis.
-- Comunicação clara sobre direitos dos clientes (artigo 18 da LGPD).
-  
-7. Manutenção e Evolução
-- Atualizações periódicas de ofertas e novidades.
-- Integração futura com e-commerce.
-- Monitoramento contínuo via Google Analytics.
-- Possibilidade de incluir blog ou seção de receitas para engajamento.
+Este documento detalha a **estrutura**, **funcionalidades**, **tecnologias** e **diretrizes de manutenção** do projeto.
 
+## 2. Objetivos do Projeto
 
+-   **Institucional**: Apresentar a história, missão, visão e valores da marca.
+-   **Comercial**: Divulgar ofertas, novidades e programas de fidelização.
+-   **Relacional**: Oferecer meios de contato direto, como WhatsApp, redes sociais e o Portal Cliente I.
+-   **Transparência**: Fornecer uma política de privacidade clara e em conformidade com a **LGPD**.
+-   **Recrutamento**: Criar um canal oficial para o recebimento de currículos.
 
-8. Conclusão
-O site do Supermercados Ivone cumpre papel estratégico, tanto na comunicação institucional quanto no relacionamento com clientes e apoio às vendas físicas.
-A plataforma garante transparência, modernidade, facilidade de contato e alinhamento com legislações atuais.
-Essa documentação serve como referência para manutenção e futuras evoluções digitais.
+---
+
+## 3. Estrutura e Páginas
+
+### 3.1 Página Inicial (`index.html`)
+
+-   **Cabeçalho fixo**: Inclui logo, links para redes sociais e o portal de clientes.
+-   **Menu de navegação**: Responsivo, adaptável para desktop e mobile.
+-   **Carrossel de banners**: Utiliza **SwiperJS** para destacar campanhas e novidades.
+-   **Cards de Destaques**: Seções com **Ofertas da Semana**, **Novidades** e o **Cliente I**.
+-   **Overlay de imagens**: Permite a visualização ampliada das ofertas.
+-   **Rodapé**: Integrado com links para Facebook, Instagram e páginas institucionais.
+-   **Botão flutuante**: Recurso "voltar ao topo" para melhorar a navegação.
+
+### 3.2 Página de Lojas (`lojas.html`)
+
+-   Apresenta as cinco unidades da rede com fotos, endereços, horários de funcionamento e contatos.
+-   Inclui botões para **WhatsApp** e links para o **Google Maps**.
+
+### 3.3 Página Sobre Nós (`sobrenos.html`)
+
+-   Conta a história da fundadora, Dona Ivone.
+-   Detalha a **Missão, Visão e Valores** da empresa.
+
+### 3.4 Página Trabalhe Conosco (`trabalheconosco.html`)
+
+-   Informa como enviar currículos por e-mail (`curriculos@grupoivone.com.br`) e como entregá-los pessoalmente.
+
+### 3.5 Página de Políticas (`politica.html`)
+
+-   Contém a **Política de Privacidade** e as regras do **Programa Cliente I**, em alinhamento com a LGPD.
+
+---
+
+## 4. Tecnologias Utilizadas
+
+-   **Frontend**: HTML5, CSS3, JavaScript.
+-   **Bibliotecas**: SwiperJS, Font Awesome, Google Fonts.
+-   **Integrações**: Google Analytics, Facebook, Instagram, WhatsApp, Google Maps.
+-   **Otimização**: Meta tags otimizadas para **SEO**, pré-carregamento de fontes e design totalmente responsivo.
+
+---
+
+## 5. Manutenção e Evolução
+
+-   **Atualizações**: As ofertas e novidades devem ser atualizadas periodicamente.
+-   **Monitoramento**: O **Google Analytics** é usado para monitorar o desempenho e o comportamento dos usuários.
+-   **Evolução Futura**: O projeto está preparado para possíveis integrações futuras, como um **e-commerce** ou um **blog/seção de receitas** para aumentar o engajamento.

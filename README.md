@@ -1,4 +1,5 @@
-:rocket: # Documentação do Site Supermercados Ivone
+![Página inicial do site do Supermercados Ivone](imagens/Logo Ivone  _ OFICIAL 3D.png)
+# Documentação do Site Supermercados Ivone
 
 https://www.supermercadosivone.com.br/
 
